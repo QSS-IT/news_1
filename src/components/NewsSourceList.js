@@ -4,6 +4,7 @@ import { List, Image } from 'semantic-ui-react';
 
 import {BASE_URL, API_KEY} from  '../Constant';
 import Loading from './Loading';
+import NewsDetails from './NewsDetails';
 
 class NewsSourceList extends Component {
 
@@ -36,7 +37,7 @@ class NewsSourceList extends Component {
                         })
                     } </List>
                 }
-
+                <NewsDetails/>
             </div>
         );
     }
